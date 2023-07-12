@@ -1,0 +1,73 @@
+table, th, tr, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+thead{
+    background-color: antiquewhite;
+}
+
+/* Front page css */
+
+.wellcome{
+    font-family: 'Permanent Marker', Courier, monospace;
+    color: rgb(255 102 102);
+    background-color: antiquewhite;
+    border-radius: 22px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.soumalaya{
+    font-family: 'Caveat', Courier, monospace;
+    color: antiquewhite;
+    background-color: rgb(255 102 102);
+    border-radius: 17px;
+    font-size: 40px;
+    text-align: center;
+    
+}
+
+.image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    clip-path: circle(18%);
+    border: 5px solid black;
+    
+}
+
+.link{
+    text-align: center;
+    color: antiquewhite;
+    
+}
+
+.link{
+    text-decoration:none;
+    text-align: center;
+    font-size: 20px;
+}
+
+div a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(59, 172, 129);
+    border-radius: 5px;
+    /* text-align: center; */
+    padding: 10px;
+}
+
+a:hover {
+    color: rgb(59, 172, 129);
+    background-color: antiquewhite;
+}
+
+.name{
+    background-color: rgb(190, 190, 112);
+    
+
+}
+.main_{
+    text-align: center;
+}
